@@ -1,0 +1,156 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.sign-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  /* background: #FFFFFF; */
+  background: linear-gradient(228deg, #0082e5 0%, #c042ff 75%);
+  box-sizing: border-box;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 10px;
+  border: 1px black;
+  font-family: "Roboto", sans-serif;
+}
+
+.lableTitle {
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+
+.lableForm {
+  font-weight: 550;
+  padding-bottom: 1px;
+  color: white;
+}
+
+.sign-box hr {
+  margin-left: auto;
+  margin-right: auto;
+  width: 10rem;
+  margin-top: -0.75rem;
+  margin-bottom: 25px;
+}
+
+.sign-box button {
+  width: 100%;
+  margin-top: 15px;
+}
+
+
+.ant-tooltip .ant-tooltip-inner {
+  font-size: 10px;
+}
+
+.anticon {
+  padding-left: 5px;
+}
+
+.sign-box .reset {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  text-decoration: none;
+  margin-top: -12px;
+}
+
+.sign-box .reset:hover {
+  cursor: pointer;
+  color: rgb(18, 223, 196);
+}
+
+
+.ant-btn-primary {
+  background: linear-gradient(to right, #c042ff -3%, #0082e5 100%);
+}
+
+.mesaageBottom {
+  display: flex;
+  /* Hiển thị các phần tử con trong cùng một hàng */
+  align-items: center;
+  /* Canh chỉnh các phần tử con theo chiều dọc */
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.mesaageBottom .msgNotify {
+  color: #000000;
+  margin-right: 3px;
+}
+
+.mesaageBottom .msgSign {
+  color: white;
+  text-decoration: underline;
+  padding-right: 2px;
+}
+
+.mesaageBottom .msgSign:hover {
+  color: rgb(18, 223, 196);
+  cursor: pointer;
+}
+
+/* .sign-box input {
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    height: 40px;
+    margin: 0 0 15px;
+    padding: 15px;
+    padding-right: 36px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.3);
+  }
+  .sign-box input:focus{
+    border-color: #d41111;
+  }
+
+  .sign-box button {
+    background: linear-gradient(to right, $color1 0%,$color2 100%);
+  }
+  .sign-box button:hover,.sign-box button:active,.sign-box button:focus {
+    background: #d4112b;
+    color: #fff;
+  }
+ 
+
+  .sign-box .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+  }
+  .sign-box .message a {
+    color: rgba(220,38,38);
+    text-decoration: none;
+  }
+  .sign-box .register-form {
+    display: none;
+  }
+
+  .password-input {
+    position: relative;
+  }
+
+  .toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-36%);
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+
+  a{
+    cursor: pointer;
+  } */
