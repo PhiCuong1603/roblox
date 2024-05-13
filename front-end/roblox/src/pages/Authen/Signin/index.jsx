@@ -71,7 +71,7 @@ const SignIn = () => {
           rules={[
             {
               required: true,
-              message: "Hãy nhập tên tài khoản!",
+              message: "Tài khoản bắt buộc nhập!",
             },
           ]}
         >
@@ -89,7 +89,7 @@ const SignIn = () => {
           rules={[
             {
               required: true,
-              message: "Hãy nhập mật khẩu!",
+              message: "Mật khẩu bắt buộc nhập!",
             },
           ]}
         >

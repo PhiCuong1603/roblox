@@ -35,7 +35,8 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     # Internal Apps
     'users',
-    'products'   
+    'products',
+    'deferror'
 ]
 
 MIDDLEWARE = [
@@ -164,7 +165,7 @@ DJOSER = {
     'SERIALIZERS': {
         'user_create': 'users.serializers.CreateUserSerializer',
         'user': "users.serializers.CreateUserSerializer",
-        'user_delete': "djoser.serializers.UserDeleteSerializer",      
+        'user_delete': "djoser.serializers.CreateUserSerializer",      
     },
 }
 

@@ -68,6 +68,7 @@
 
 .ant-btn-primary {
   background: linear-gradient(to right, #c042ff -3%, #0082e5 100%);
+  border: 0.5px white solid;
 }
 
 .mesaageBottom {

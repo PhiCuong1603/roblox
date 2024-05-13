@@ -104,7 +104,7 @@ const SignUp = () => {
           rules={[
             {
               required: true,
-              message: "Hãy nhập tên tài khoản!",
+              message: "Tài khoản bắt buộc nhập!",
             },
           ]}
         >
@@ -122,7 +122,7 @@ const SignUp = () => {
           rules={[
             {
               required: true,
-              message: "Hãy nhập email của bạn!",
+              message: "Email bắt buộc nhập!",
             },
             {
               type: "email",
@@ -148,7 +148,7 @@ const SignUp = () => {
           rules={[
             {
               required: true,
-              message: "Hãy nhập mật khẩu!",
+              message: "Mật khẩu bắt buộc nhập!",
             },
           ]}
         >
@@ -167,7 +167,7 @@ const SignUp = () => {
           rules={[
             {
               required: true,
-              message: "Hãy nhập lại mật khẩu!",
+              message: "Mật khẩu bắt buộc nhập!",
             },
           ]}
         >

@@ -6,3 +6,76 @@ body {
     font-size: 3rem;
     background-size: cover;
 }
+
+.banner-container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    border: 2px solid;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-image: conic-gradient(from var(--angle), red, yellow, lime, aqua, blue, magenta, red) 1;
+    animation: 3s rotate linear infinite;
+}
+
+.banner-container .rank {
+    /* background: rgb(92, 161, 240); */
+    border-right: 1px solid rgb(255, 255, 255);
+    /* z-index: 2; */
+}
+
+.banner-container .video {
+    /* background: rgb(99, 173, 241); */
+    border-left: 1px solid rgb(190, 190, 190);
+    /* z-index: 2; */
+}
+
+
+.inform-container {
+    width: 100%;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.inform-container .icon {
+    /* background-image: url('./assets//222.jpg'); */
+    background-color: aqua;
+    background-size: cover; /* Đảm bảo hình ảnh đổ đầy phần tử */
+    background-position: center; /* Canh giữa hình ảnh */
+}
+
+.inform-container .information {
+    background: rgb(99, 173, 241);
+}
+
+.card-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 20px;
+    width: calc(100% - 32px);
+    padding: 0 18px;
+    border-radius: 10px;
+}
+
+.card-container .title {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    font-weight: bolder;
+}
+
+
+@keyframes rotate {
+    to {
+        --angle: 360deg;
+    }
+}
+
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+}
