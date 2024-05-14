@@ -36,7 +36,8 @@ INSTALLED_APPS = [
     # Internal Apps
     'users',
     'products',
-    'deferror'
+    'deferror',
+    'game'
 ]
 
 MIDDLEWARE = [
